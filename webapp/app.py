@@ -8,9 +8,9 @@ app = Flask(__name__)
 def index():
     return '''
         <h1>Welcome to the Flask Backend App!</h1>
-        <p>Use /add to add two numbers.</p>
-        <a href="/add?a=2&b=3">Try adding 2 and 3</a>
-        <p>Use /subtract to subtract two numbers.</p>
+        
+        <a href="/add?a=2&b=3">Try adding 2 and 3</a><br>
+        
         <a href="/subtract?a=5&b=2">Try subtracting 5 and 2</a>
     '''
 
